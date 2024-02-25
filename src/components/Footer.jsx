@@ -1,8 +1,10 @@
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa6';
+
 const Footer = () => {
     return (
         <div className="bg-gray-900">
-            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-4">
-                <div className="grid lg:grid-cols-6">
+            <div className="px-4 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-4">
+                <div className="grid py-16 lg:grid-cols-6">
                     <div className="grid grid-cols-2 gap-5 md:grid-cols-4 lg:col-span-4">
                         <div>
                             <p className="font-medium tracking-wide text-gray-300">Category 1</p>
@@ -98,6 +100,16 @@ const Footer = () => {
                                 Subscribe
                             </button>
                         </form> 
+                        <p className="mt-4 text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nisi cumque voluptas.</p>
+                    </div>
+                </div>
+
+                <div className="flex flex-col justify-between py-10 border-t border-gray-800 sm:flex-row">
+                    <p className="text-sm text-gray-500">© Copyright 2024 | All rights reserved</p>
+                    <div className="flex items-center mt-4 space-x-4 sm:mt-0">
+                        <a href="" className='text-gray-500 transition-all duration-300 hover:text-orange-500'><FaTwitter className="h-6 w-6" /></a>
+                        <a href="" className='text-gray-500 transition-all duration-300 hover:text-orange-500'><FaInstagram className="h-6 w-6" /></a>
+                        <a href="" className='text-gray-500 transition-all duration-300 hover:text-orange-500'><FaFacebook className="h-6 w-6" /></a>
                     </div>
                 </div>
             </div>
