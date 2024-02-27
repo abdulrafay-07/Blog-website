@@ -89,7 +89,7 @@ const Footer = () => {
                     </div>
 
                     <div className="mt-5 md:max-w-md lg:col-span-2 lg:mt-0">
-                        <p className="font-medium tracking-wide text-gray-300">Form</p>
+                        <p className="font-medium tracking-wide text-gray-300">Subscribe to our Newsletter</p>
                         <form className="pt-4 flex flex-col md:flex-row">
                             <input type="email" name="email" id="email" placeholder="Email"
                                 className="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-purple-400 focus:outline-none"
