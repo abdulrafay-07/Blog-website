@@ -3,10 +3,10 @@ const About = () => {
         <div>
             <div className="px-4 py-40 bg-black text-center text-white">
                 <h2 className="text-5xl lg:text-7xl leading-snug font-bold mb-5">About Us</h2>
+                <p className="text-gray-300 text-xl font-primary">Learn more about the team behind the blog!</p>
             </div>
 
             <div className="px-4 py-12 sm:py-20 md:px-10 lg:px-20 max-w-4xl mx-auto">
-                <h2 className="text-2xl text-orange-500 font-semibold my-1 text-center">Learn more about the team behind the blog!</h2>
 
                 <div className="py-14 flex flex-col">
                     <div className="py-3">
