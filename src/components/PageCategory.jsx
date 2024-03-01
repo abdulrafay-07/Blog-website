@@ -2,7 +2,7 @@ const PageCategory = ({ onSelectCategory, activeCategory }) => {
     const categories = ["Startups", "Security", "AI", "Apps", "Tech"];
 
     return (
-        <div className="px-4 py-5 mb-8 lg:space-x-16 flex flex-wrap items-center border-b-2 text-gray-900 font-semibold">
+        <div className="px-4 py-5 mb-8 space-x-6 sm:space-x-10 lg:space-x-16 flex flex-wrap items-center border-b-2 text-gray-900 font-semibold">
             <button 
                 onClick={() => onSelectCategory(null)} 
                 className={`lg:ml-12 ${activeCategory ? "" : "active-button"}`}

@@ -6,9 +6,9 @@ const About = () => {
                 <p className="text-gray-300 text-xl font-primary">Learn more about the team behind the blog!</p>
             </div>
 
-            <div className="px-4 py-12 sm:py-20 md:px-10 lg:px-20 max-w-4xl mx-auto">
+            <div className="px-4 py-4 sm:py-20 md:px-10 lg:px-20 max-w-4xl mx-auto">
 
-                <div className="py-14 flex flex-col">
+                <div className="py-8 flex flex-col">
                     <div className="py-3">
                         <h2 className="text-3xl font-semibold my-1">Welcome to our Blog!</h2>
                         <p className="text-xl text-gray-700 mt-2">We are a team of passionate writers, dedicated to bringing you the latest news, the most interesting stories, and the most thought-provoking ideas. Our goal is to inform, entertain, and inspire our readers, and we take that mission seriously.</p>
